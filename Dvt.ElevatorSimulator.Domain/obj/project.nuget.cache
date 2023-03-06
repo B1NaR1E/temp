@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "AtKWSUi7VVbs720rSfp6CKO3b2KFy8pnWpI5yRubdyXzfqxa8lTLCRn2AZFzZHN3uW8eA6XHQtB6P/GdHFXVeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B1NaR1E\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

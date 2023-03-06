@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/vgdFtNhtukxdHIm6p6wSrUJ5voz8IH0CS3O/4DuqB17nn2wc1VGeU6XTL480Pt295ZZk3SlvK5bdJIgLLEO1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\B1NaR1E\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
