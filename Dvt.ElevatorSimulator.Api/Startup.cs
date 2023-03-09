@@ -1,50 +1,50 @@
-﻿using Microsoft.OpenApi.Models;
+﻿////using Microsoft.OpenApi.Models;
 
-namespace Dvt.ElevatorSimulator.Api;
+//namespace Dvt.ElevatorSimulator.Api;
 
-public class Startup
-{
-    public Startup(IConfiguration configuration)
-    {
-        Configuration = configuration;
-    }
+//public class Startup
+//{
+//    public Startup(IConfiguration configuration)
+//    {
+//        Configuration = configuration;
+//    }
 
-    public IConfiguration Configuration { get; }
+//    public IConfiguration Configuration { get; }
 
-    // This method gets called by the runtime. Use this method to add services to the container.
-    public void ConfigureServices(IServiceCollection services)
-    {
-        // Application services
-        // services
-        //     .AddDatabase(Configuration)
-        //     .AddUnitOfWork()
-        //     .AddRepositories()
-        //     .AddBusinessServices();
+//    // This method gets called by the runtime. Use this method to add services to the container.
+//    public void ConfigureServices(IServiceCollection services)
+//    {
+//        // Application services
+//        // services
+//        //     .AddDatabase(Configuration)
+//        //     .AddUnitOfWork()
+//        //     .AddRepositories()
+//        //     .AddBusinessServices();
 
-        services.AddControllers();
-        services.AddSwaggerGen(c =>
-        {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
-        });
-    }
+//        services.AddControllers();
+//        services.AddSwaggerGen(c =>
+//        {
+//            c.SwaggerDoc("v1", new OpenApiInfo { Title = "API", Version = "v1" });
+//        });
+//    }
 
-    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-    {
-        if (env.IsDevelopment())
-        {
-            app.UseDeveloperExceptionPage();
-            app.UseSwagger();
-            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
-        }
+//    // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+//    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+//    {
+//        if (env.IsDevelopment())
+//        {
+//            app.UseDeveloperExceptionPage();
+//            app.UseSwagger();
+//            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "API v1"));
+//        }
 
-        app.UseRouting();
+//        app.UseRouting();
 
-        app.UseAuthorization();
+//        app.UseAuthorization();
 
-        app.UseEndpoints(endpoints =>
-        {
-            endpoints.MapControllers();
-        });
-    }
-}
+//        app.UseEndpoints(endpoints =>
+//        {
+//            endpoints.MapControllers();
+//        });
+//    }
+//}

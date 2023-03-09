@@ -1,6 +1,4 @@
-﻿using Dvt.ElevatorSimulator.Domain.Base;
-
-namespace Dvt.ElevatorSimulator.Domain.Core;
+﻿namespace Dvt.ElevatorSimulator.Domain.Core;
 
 public interface IEntity
 {

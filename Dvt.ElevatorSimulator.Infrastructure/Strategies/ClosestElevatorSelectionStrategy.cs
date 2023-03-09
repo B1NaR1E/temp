@@ -1,5 +1,6 @@
 ﻿using Dvt.ElevatorSimulator.Domain.Elevator;
-using Dvt.ElevatorSimulator.Domain.Enums;
+using Dvt.ElevatorSimulator.Domain.Shared.Enums;
+using Dvt.ElevatorSimulator.Infrastructure.Interfaces;
 
 namespace Dvt.ElevatorSimulator.Infrastructure.Strategies;
 
@@ -53,7 +54,7 @@ public class ClosestElevatorSelectionStrategy : ISelectionStrategy
     private static Elevator GetClosestElevator(IEnumerable<Elevator> elevators, int originatingFloor)
     {
         return elevators.Aggregate((x, y) =>
-            Math.Abs(x.CurrentFloor - originatingFloor) <
-            Math.Abs(y.CurrentFloor - originatingFloor) ? x : y);
+            (Math.Abs((x.CurrentFloor - originatingFloor)) <
+            Math.Abs((y.CurrentFloor - originatingFloor))) ? x : y);
     }
 }

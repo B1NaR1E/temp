@@ -1,4 +1,6 @@
 ﻿using Dvt.ElevatorSimulator.Domain.Elevator;
+using Dvt.ElevatorSimulator.Domain.Shared.Enums;
+using Dvt.ElevatorSimulator.Infrastructure.Interfaces;
 
 namespace Dvt.ElevatorSimulator.Infrastructure.Services;
 
@@ -15,11 +17,36 @@ public class Simulator : ISimulator
 
     public void AddRequest(ElevatorRequest request)
     {
-        _elevatorRequests.Add(request);
+        _elevatorControlSystem.AddRequests(request);
     }
 
     public IReadOnlyList<Elevator> GetElevators()
     {
         return _elevatorControlSystem.Elevators;
+    }
+
+    public void Step()
+    {
+        _elevatorControlSystem.Elevators.ToList().ForEach(e => 
+        {
+            if(e.TotalPassengers() > 0)
+            {
+                e.UnloadPassengers();
+            }
+
+            var loadPassengerJobs = _elevatorControlSystem.ElevatorJobs[e.Id].Where(j => j.OriginatingFloor == e.CurrentFloor).ToList();
+
+            foreach (var job in loadPassengerJobs)
+            {
+                e.LoadPassenger(job.DestinationFloor, job.OriginatingFloor, job.TotalPassengers);
+
+                if(e.State is not State.OverLimit)
+                {
+                    _elevatorControlSystem.ElevatorJobs[e.Id].Remove(job);
+                }
+            }
+
+            e.Move();
+        });
     }
 }

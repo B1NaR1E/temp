@@ -1,8 +1,8 @@
-﻿using Dvt.ElevatorSimulator.Domain.Enums;
+﻿using Dvt.ElevatorSimulator.Domain.Shared.Enums;
 
 namespace Dvt.ElevatorSimulator.Domain.Core;
 
-public interface IElevator
+public interface IElevatorCore
 {
     int CurrentFloor { get; }
     int DestinationFloor { get; }

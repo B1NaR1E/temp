@@ -1,6 +1,6 @@
 ﻿using Dvt.ElevatorSimulator.Domain.Elevator;
 
-namespace Dvt.ElevatorSimulator.Infrastructure;
+namespace Dvt.ElevatorSimulator.Infrastructure.Interfaces;
 
 public interface ISelectionStrategy
 {

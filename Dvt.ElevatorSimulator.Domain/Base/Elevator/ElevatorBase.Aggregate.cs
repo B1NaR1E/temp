@@ -1,4 +1,4 @@
-﻿using Dvt.ElevatorSimulator.Domain.Enums;
+﻿using Dvt.ElevatorSimulator.Domain.Shared.Enums;
 
 namespace Dvt.ElevatorSimulator.Domain.Base.Elevator;
 
@@ -30,7 +30,7 @@ public abstract partial class ElevatorBase
         Stops.Remove(CurrentFloor);
     }
     
-    public void AddStops(int destinationFloor)
+    public void AddStop(int destinationFloor)
     {
         if(!Stops.Contains(destinationFloor))
             Stops.Add(destinationFloor);

@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\B1NaR1E\\.nuget\\packages\\": {}
+    "C:\\Users\\sidner01\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.csproj",
+      "projectUniqueName": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.csproj",
       "projectName": "Dvt.ElevatorSimulator",
-      "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.csproj",
-      "packagesPath": "C:\\Users\\B1NaR1E\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator\\obj\\",
+      "projectPath": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.csproj",
+      "packagesPath": "C:\\Users\\sidner01\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\B1NaR1E\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sidner01\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +32,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://proget.out.co.za/nuget/Default-NuGet/": {}
       },
       "frameworks": {
         "net6.0": {

@@ -1,4 +1,5 @@
 ﻿using Dvt.ElevatorSimulator.Domain.Elevator;
+using Dvt.ElevatorSimulator.Infrastructure.Interfaces;
 
 namespace Dvt.ElevatorSimulator.Infrastructure.Services;
 
@@ -8,10 +9,14 @@ public class ElevatorControlSystem : IElevatorControlSystem
     private readonly List<Elevator> _elevators;
     private readonly ISelectionStrategy _selectionStrategy;
 
+    public Dictionary<Guid, List<ElevatorRequest>> ElevatorJobs { get; private set; }
+
     public ElevatorControlSystem(ISelectionStrategy selectionStrategy)
     {
         _requests = new List<ElevatorRequest>();
         _elevators = new List<Elevator>();
+        ElevatorJobs = new Dictionary<Guid, List<ElevatorRequest>>();
+
         _selectionStrategy = selectionStrategy;
     }
 
@@ -27,7 +32,9 @@ public class ElevatorControlSystem : IElevatorControlSystem
     {
         for (int i = 0; i < totalElevators; i++)
         {
-            _elevators.Add(new Elevator(totalFloors, maxPassengersPerElevator));
+            var elevator = new Elevator(totalFloors, maxPassengersPerElevator);
+            _elevators.Add(elevator);
+            ElevatorJobs.Add(elevator.Id, new List<ElevatorRequest>());
         }
     }
 
@@ -40,14 +47,11 @@ public class ElevatorControlSystem : IElevatorControlSystem
         
         if (elevator is not null)
         {
-            //If elevator is found the system loads the request on the elevator job queue.
-            //_elevatorJobs[elevatorId].Add(request);
-                
-            //Adds the floor of the request to the elevator's stops
-            elevator.AddStops(request.OriginatingFloor);
-                
-            //If request is handed off to the elevator the system removes the request from it's queue.
-            //_elevatorCalls.Remove(request);
+            ElevatorJobs[elevatorId].Add(request);
+               
+            elevator.AddStop(request.OriginatingFloor);
+
+            _requests.Remove(request);
         }
 
         return successful;

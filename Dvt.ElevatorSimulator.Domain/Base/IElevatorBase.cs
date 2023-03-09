@@ -2,7 +2,7 @@
 
 namespace Dvt.ElevatorSimulator.Domain.Base;
 
-public interface IElevatorBase : IElevator
+public interface IElevatorBase : IElevatorCore
 {
-    void AddStops(int destinationFloor);
+    void AddStop(int destinationFloor);
 }

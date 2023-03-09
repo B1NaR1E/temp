@@ -1,25 +1,27 @@
-﻿using System.Security.Cryptography;
-using Dvt.ElevatorSimulator.Domain.Enums;
+﻿using Dvt.ElevatorSimulator.Domain.Shared.Enums;
 
 namespace Dvt.ElevatorSimulator.Domain.Base.Elevator;
 
 public abstract partial class ElevatorBase : EntityBase, IElevatorBase
 {
     private readonly int _totalFloors;
+    protected readonly int _maxPassengers;
 
-    protected ElevatorBase(int totalFloors, int totalPassengers)
+    protected ElevatorBase(int totalFloors, int maxPassengers)
     {
         _totalFloors = totalFloors;
+        _maxPassengers = maxPassengers;
+
         Stops = new List<int>();
-        Id = new Guid();
+        Id = Guid.NewGuid();
         State = State.Stopped;
         CurrentFloor = 1;
         DestinationFloor = 1;
     }
 
-    private List<int> Stops { get; }
-    public int CurrentFloor { get; private set; }
-    public int DestinationFloor { get; private set; }
+    public List<int> Stops { get; protected set; }
+    public int CurrentFloor { get; protected set; }
+    public int DestinationFloor { get; protected set; }
     
     public Direction Direction {
         get
@@ -33,5 +35,5 @@ public abstract partial class ElevatorBase : EntityBase, IElevatorBase
         }
     }
     
-    public State State { get; private set; }
+    public State State { get; protected set; }
 }

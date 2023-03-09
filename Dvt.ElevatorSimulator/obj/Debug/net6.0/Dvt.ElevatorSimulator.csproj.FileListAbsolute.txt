@@ -1,0 +1,15 @@
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\bin\Debug\net6.0\Dvt.ElevatorSimulator.exe
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\bin\Debug\net6.0\Dvt.ElevatorSimulator.deps.json
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\bin\Debug\net6.0\Dvt.ElevatorSimulator.runtimeconfig.json
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\bin\Debug\net6.0\Dvt.ElevatorSimulator.dll
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\bin\Debug\net6.0\Dvt.ElevatorSimulator.pdb
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.csproj.AssemblyReference.cache
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.AssemblyInfoInputs.cache
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.AssemblyInfo.cs
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.csproj.CoreCompileInputs.cache
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.dll
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\refint\Dvt.ElevatorSimulator.dll
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.pdb
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\Dvt.ElevatorSimulator.genruntimeconfig.cache
+C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator\obj\Debug\net6.0\ref\Dvt.ElevatorSimulator.dll
