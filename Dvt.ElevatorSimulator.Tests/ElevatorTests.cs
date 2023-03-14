@@ -16,8 +16,8 @@ namespace Dvt.ElevatorSimulator.Tests
                 var elevator = new ElevatorImplementation(totalFloors: 10, totalPassengers: 5);
                 var requests = new List<ElevatorRequest>()
             {
-                new ElevatorRequest(5, 10, 3),
-                new ElevatorRequest(5, 9, 3),
+                new(5, 10, 3),
+                new(5, 9, 3),
             };
 
                 //Act
@@ -42,8 +42,8 @@ namespace Dvt.ElevatorSimulator.Tests
                 var elevator = new ElevatorImplementation(totalFloors: 10, totalPassengers: 5);
                 var requests = new List<ElevatorRequest>()
             {
-                new ElevatorRequest(5, 10, 3),
-                new ElevatorRequest(5, 9, 2),
+                new(5, 10, 3),
+                new(5, 9, 2),
             };
 
                 //Act
@@ -73,7 +73,7 @@ namespace Dvt.ElevatorSimulator.Tests
 
                 var requests = new List<ElevatorRequest>()
             {
-                new ElevatorRequest(5, 10, 4),
+                new(5, 10, 4),
             };
 
                 //Act
@@ -106,8 +106,8 @@ namespace Dvt.ElevatorSimulator.Tests
 
                 var requests = new List<ElevatorRequest>()
             {
-                new ElevatorRequest(5, 10, 4),
-                new ElevatorRequest(6, 9, 2),
+                new(5, 10, 4),
+                new(6, 9, 2),
             };
 
                 //Act

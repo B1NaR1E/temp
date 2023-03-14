@@ -5,10 +5,14 @@
       "MediatR.Contracts/2.0.1": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/netstandard2.0/MediatR.Contracts.dll": {}
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
         }
       }
     }
@@ -35,23 +39,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sidner01\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\B1NaR1E\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
       "projectName": "Dvt.ElevatorSimulator.Domain",
-      "projectPath": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
-      "packagesPath": "C:\\Users\\sidner01\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sidner01\\Source\\Repos\\temp\\Dvt.ElevatorSimulator.Domain\\obj\\",
+      "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+      "packagesPath": "C:\\Users\\B1NaR1E\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sidner01\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\B1NaR1E\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -59,8 +59,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.out.co.za/nuget/Default-NuGet/": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

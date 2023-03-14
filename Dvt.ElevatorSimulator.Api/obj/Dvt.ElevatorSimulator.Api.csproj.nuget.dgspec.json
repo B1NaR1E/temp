@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj": {}
+    "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj": {
+    "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj",
+        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj",
         "projectName": "Dvt.ElevatorSimulator.Api",
-        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj",
+        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Api\\Dvt.ElevatorSimulator.Api.csproj",
         "packagesPath": "C:\\Users\\B1NaR1E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Api\\obj\\",
+        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\B1NaR1E\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
-                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj"
+              "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
+                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj"
               },
-              "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj"
+              "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj"
               }
             }
           }
@@ -47,6 +47,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -75,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
+    "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
         "projectName": "Dvt.ElevatorSimulator.Domain",
-        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
         "packagesPath": "C:\\Users\\B1NaR1E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\obj\\",
+        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\B1NaR1E\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj": {
+    "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj",
         "projectName": "Dvt.ElevatorSimulator.Infrastructure",
-        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\Dvt.ElevatorSimulator.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\B1NaR1E\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\B1NaR1E\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -160,8 +168,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
-                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Square Enix\\Dvt.ElevatorSimulator\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj"
+              "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj": {
+                "projectPath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj"
               }
             }
           }

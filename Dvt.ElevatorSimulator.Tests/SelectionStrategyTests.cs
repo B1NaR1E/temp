@@ -24,7 +24,7 @@ namespace Dvt.ElevatorSimulator.Tests
             Assert.That(selectedElevator, Is.Not.Null);
             Assert.Multiple(() =>
             {
-                Assert.That(selectedElevator.Direction, Is.EqualTo(Direction.Up));
+                Assert.That(selectedElevator!.Direction, Is.EqualTo(Direction.Up));
                 Assert.That(selectedElevator.CurrentFloor, Is.EqualTo(4));
                 Assert.That(selectedElevator.DestinationFloor, Is.EqualTo(10));
             });

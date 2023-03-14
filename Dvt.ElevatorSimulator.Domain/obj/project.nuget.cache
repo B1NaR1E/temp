@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+a5fRYZaaBTYHqXb51KOAA6CUrC46pkEKboYzKnNXBwSx/UU+K6LjFh1s8w3heixqFXYcZbiAA751a6t3cRCBQ==",
+  "dgSpecHash": "U6+f0YIcXzzFayLhjoxu97qZpAar5pLZa+eq3QP6k9s9BObUfAqreREA0zsYTitaedIY1nFjIUZgha8hJAaLVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sidner01\\source\\repos\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
+  "projectFilePath": "C:\\Users\\B1NaR1E\\Documents\\Programing\\temp\\Dvt.ElevatorSimulator.Domain\\Dvt.ElevatorSimulator.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sidner01\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+    "C:\\Users\\B1NaR1E\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
   ],
   "logs": []
 }

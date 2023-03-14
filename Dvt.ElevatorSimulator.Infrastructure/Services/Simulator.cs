@@ -15,9 +15,14 @@ public class Simulator : ISimulator
         _elevatorRequests = new List<ElevatorRequest>();
     }
 
+    public void SetupElevators(int totalFloors, int totalPassengers, int totalElevators)
+    {
+        _elevatorControlSystem.CreateElevators(totalElevators, totalFloors, totalPassengers);
+    }
+
     public void AddRequest(ElevatorRequest request)
     {
-        _elevatorControlSystem.AddRequests(request);
+        _elevatorRequests.Add(request);
     }
 
     public IReadOnlyList<Elevator> GetElevators()
@@ -27,25 +32,40 @@ public class Simulator : ISimulator
 
     public void Step()
     {
+        if (_elevatorRequests.Any())
+        {
+            var request = _elevatorRequests.First();
+            var result = _elevatorControlSystem.ProcessRequest(request);
+
+            if (result)
+                _elevatorRequests.Remove(request);
+        }
+        
         _elevatorControlSystem.Elevators.ToList().ForEach(e => 
         {
-            if(e.TotalPassengers() > 0)
+            if ((e.State is State.Stopped or State.OverLimit) && e.TotalPassengers() > 0 && !e.IsBusy)
             {
                 e.UnloadPassengers();
             }
-
-            var loadPassengerJobs = _elevatorControlSystem.ElevatorJobs[e.Id].Where(j => j.OriginatingFloor == e.CurrentFloor).ToList();
-
-            foreach (var job in loadPassengerJobs)
+            
+            if (e.State != State.OverLimit || !e.IsBusy)
             {
-                e.LoadPassenger(job.DestinationFloor, job.OriginatingFloor, job.TotalPassengers);
+                e.IsBusy = true;
+                var loadPassengerJobs =  _elevatorControlSystem.ElevatorJobs[e.Id].Where(j => j.OriginatingFloor == e.CurrentFloor).ToList();
 
-                if(e.State is not State.OverLimit)
+                foreach (var job in loadPassengerJobs)
                 {
+                    var passengersLoadedSuccessfully = e.LoadPassenger(job.DestinationFloor, job.OriginatingFloor, job.TotalPassengers);
+                    
+                    if (!passengersLoadedSuccessfully)
+                        _elevatorRequests.Add(job);
+                    
                     _elevatorControlSystem.ElevatorJobs[e.Id].Remove(job);
                 }
-            }
 
+                e.IsBusy = false;
+            }
+            
             e.Move();
         });
     }

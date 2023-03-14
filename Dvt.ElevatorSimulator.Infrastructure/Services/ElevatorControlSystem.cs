@@ -5,7 +5,7 @@ namespace Dvt.ElevatorSimulator.Infrastructure.Services;
 
 public class ElevatorControlSystem : IElevatorControlSystem
 {
-    private readonly List<ElevatorRequest> _requests;
+    //private readonly List<ElevatorRequest> _requests;
     private readonly List<Elevator> _elevators;
     private readonly ISelectionStrategy _selectionStrategy;
 
@@ -13,19 +13,20 @@ public class ElevatorControlSystem : IElevatorControlSystem
 
     public ElevatorControlSystem(ISelectionStrategy selectionStrategy)
     {
-        _requests = new List<ElevatorRequest>();
+        //_requests = new List<ElevatorRequest>();
         _elevators = new List<Elevator>();
         ElevatorJobs = new Dictionary<Guid, List<ElevatorRequest>>();
 
         _selectionStrategy = selectionStrategy;
     }
 
-    public IReadOnlyList<ElevatorRequest> Requests => _requests.AsReadOnly();
+    //public IReadOnlyList<ElevatorRequest> Requests => _requests.AsReadOnly();
     public IReadOnlyList<Elevator> Elevators => _elevators.AsReadOnly();
 
     public void AddRequests(ElevatorRequest request)
     {
-        _requests.Add(request);
+        //_requests.Add(request);
+        
     }
 
     public void CreateElevators(int totalElevators, int totalFloors, int maxPassengersPerElevator)
@@ -51,7 +52,7 @@ public class ElevatorControlSystem : IElevatorControlSystem
                
             elevator.AddStop(request.OriginatingFloor);
 
-            _requests.Remove(request);
+            //_requests.Remove(request);
         }
 
         return successful;

@@ -10,3 +10,15 @@ C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.
 C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\refint\Dvt.ElevatorSimulator.Domain.dll
 C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.pdb
 C:\Users\sidner01\source\repos\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\ref\Dvt.ElevatorSimulator.Domain.dll
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.dll
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\refint\Dvt.ElevatorSimulator.Domain.dll
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.pdb
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\bin\Debug\net6.0\Dvt.ElevatorSimulator.Domain.deps.json
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\bin\Debug\net6.0\Dvt.ElevatorSimulator.Domain.dll
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\bin\Debug\net6.0\Dvt.ElevatorSimulator.Domain.pdb
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.csproj.AssemblyReference.cache
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.AssemblyInfoInputs.cache
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.AssemblyInfo.cs
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\Dvt.ElevatorSimulator.Domain.csproj.CoreCompileInputs.cache
+C:\Users\B1NaR1E\Documents\Programing\temp\Dvt.ElevatorSimulator.Domain\obj\Debug\net6.0\ref\Dvt.ElevatorSimulator.Domain.dll
